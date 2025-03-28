@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # --- Configuration ---
-BACKEND_URL = "http://localhost:8000"  # Change if your backend runs elsewhere
+BACKEND_URL = "https://decades-million-yourself-executive.trycloudflare.com"  # Change if your backend runs elsewhere
 ENHANCE_ENDPOINT = f"{BACKEND_URL}/enhance/"
 REMOVE_ENHANCE_ENDPOINT = f"{BACKEND_URL}/remove-and-enhance/"
 
